@@ -13,10 +13,6 @@ class FileManager {
     });
   }
 
-  getEOL() {
-    return os.EOL;
-  }
-
   start() {
     console.log(`Welcome to the File Manager, ${this.username}!`);
     this.printCurrentDir();

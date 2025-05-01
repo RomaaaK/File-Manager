@@ -1,3 +1,4 @@
+import hashCommand from "../commands/hash/hash.js";
 import navigationCommands from "../commands/navigations/navigationCommands.js";
 import osCommands from "../commands/os/index.js";
 
@@ -8,5 +9,7 @@ for (const [name, command] of Object.entries(navigationCommands)) {
 }
 
 commands.set(osCommands.name, osCommands);
+
+commands.set(hashCommand.name, hashCommand);
 
 export default commands;
