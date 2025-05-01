@@ -1,4 +1,3 @@
-// src/commands/cd.js
 import path from "path";
 import fs from "fs/promises";
 import { constants } from "fs";
