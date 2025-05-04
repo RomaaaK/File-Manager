@@ -18,9 +18,7 @@ export default {
 
   async execute(args, fileManager) {
     if (args.length === 0 || !osCommands[args[0]]) {
-      console.log('Invalid or missing argument. Please use one of the following:');
-      console.log('--EOL, --cpus, --homedir, --username, --architecture');
-      return;
+      throw new Error();
     }
 
     const command = osCommands[args[0]];
