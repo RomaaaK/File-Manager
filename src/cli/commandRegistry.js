@@ -1,8 +1,8 @@
-import basicCommands from "../commands/basic/basicCommands.js";
-import compressComamands from "../commands/compress/compressCommands.js";
-import hashCommands from "../commands/hash/hashCommands.js";
-import navigationCommands from "../commands/navigations/navigationCommands.js";
-import osCommands from "../commands/os/osCommands.js";
+import basicCommands from "../modules/basic/basicCommands.js";
+import compressComamands from "../modules/compress/compressCommands.js";
+import hashCommands from "../modules/hash/hashCommands.js";
+import navigationCommands from "../modules/navigations/navigationCommands.js";
+import osCommands from "../modules/os/osCommands.js";
 
 const commands = new Map();
 
