@@ -1,9 +1,9 @@
 import { createHash } from "crypto";
 import { pipeline } from "stream/promises";
 import { createReadStream } from "fs";
-import path  from "path";
+import path from "path";
 
-const hashCommand = {
+export default {
   name: "hash",
   description: "Calculate hash for file and print it into console",
 
@@ -20,5 +20,3 @@ const hashCommand = {
     console.log(digest);
   },
 };
-
-export default hashCommand;

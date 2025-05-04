@@ -6,7 +6,7 @@ import cp from "./cp.js";
 import mv from "./mv.js";
 import rm from "./rm.js";
 
-export default {
+const basicCommands = {
   [cat.name]: cat,
   [add.name]: add,
   [mkdir.name]: mkdir,
@@ -15,3 +15,5 @@ export default {
   [mv.name]: mv,
   [rm.name]: rm,
 };
+
+export default basicCommands;
